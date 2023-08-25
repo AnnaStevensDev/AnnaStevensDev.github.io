@@ -1,0 +1,30 @@
+<!--
+WebGL #0 
+Author : Anna Stevens
+Due date : 8/25/23
+Date completed: 8/25/23
+Time spent on the assignment: 3 hrs 
+Name of the peer reviewer: N/A 
+Functional: Yes
+Description:
+    HTML code for a webpage that uses WebGL.
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+      <meta charset="utf-8" />
+      <title>Draw some triangles!</title>
+    </head>
+
+    <body onload = "main()">
+        <canvas id ="webgl" width = "512" height = "512">
+            Please use the browser supporting "canvas"
+        </canvas>
+
+        <script src="..\lib\webgl-utils.js"></script>
+        <script src="..\lib\webgl-debug.js"></script>
+        <script src="..\lib\cuon-utils.js"></script>
+        <script src="triangleWebGL.js"></script>
+    </body>
+</html>
