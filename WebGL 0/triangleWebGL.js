@@ -8,6 +8,7 @@ Name of the peer reviewer: N/A
 Functional: Yes
 Description:
 	Using WebGL, this program loads a webpage displaying two purple triangles. 
+  This is based off the WebGL code found in the textbook. 
 */
 
 // Vertex shader program
@@ -72,7 +73,7 @@ function initVertexBuffers(gl, vertices) {
 
   // Bind the buffer object to target
   gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
-  // Write date into the buffer object
+  // Write data into the buffer object
   gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
 
   var a_Position = gl.getAttribLocation(gl.program, 'a_Position');
